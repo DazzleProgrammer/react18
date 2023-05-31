@@ -1,0 +1,22 @@
+State : awastha 
+
+1. useState = hooks
+
+2. syntax = const[text, setText] = useState("Texting");  text = default value , setText = fxn jo ki text ko update krne k liye.
+
+3. setText ko update krne k liye updation fxn lgana prta h 
+
+setText("hiii m fine!")
+
+4. useState ko hmesha functional component k andr dalna h return k upper.
+
+5. jaha bhi useState dikhana h waha usko {} isme mention krna h uske argument ko.
+
+6. onChange = isse type krne k liye permission milta h.
+
+
+Summary :-
+
+State concept
+
+useState hook 

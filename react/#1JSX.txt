@@ -1,0 +1,27 @@
+1. installing react package :-
+
+ npx create-react-app@latest app-name
+
+2. Entry point: public => Index.html
+
+3. Src => App.js = isme jo likha hoga wahi screen pe dikhega.
+
+4. React Components => Function based components (syntax easy) + Class Based Components.
+
+5. FBC => ek fxn bnana h or return m bracket jsx daldena h.  
+
+6. JSX => HTML in JS mukut means html m js use krskte h {} m.
+
+7. class = className , for = htmlFor , tab = tabIndex .
+
+8. React k andr return m sirf ekhi div(element) return krna h.
+
+9. JSX fragment : <> </>  isse hm return m ek se jada element add krskte h.
+
+10. return () k bad fragment:() isliye lgayi jati h taki js ; na add krde automatically.
+
+11. App.js m koi bhi file ko add krne k liye : import'file ka path';   e.g   import'./App.css'; 
+
+12. let name = "Dazzle";  ye variable fxn k upper lgta h.
+
+13. Hello {name} !  {} isme js ki trh variable use krte h  means hme jaha jaha js likhna h use {}  curly brackets m likhna hoga. 

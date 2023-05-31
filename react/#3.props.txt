@@ -1,0 +1,55 @@
+Props = properties jo hm pass krte h  
+
+1. Module 
+
+2. src => components => Navbar.js => rfc => div k andr kuch bhi likhna h 
+
+3. App.js => nav k niche => <Navbar/> ye lgana h  : isse Navbar.js ek component k trh kaam krega or web pe dikhega.
+
+4. App.js m Navbar.js automatically import hojayega upper m.
+
+5. Navbar.js m pura navbar ka bootstrap dalskte h or App.js m niche <Navbar/> likhkr import kra skte h : isse App.js bilkul clean rhega.
+
+<======== PROPS ========> 
+
+1. App.js => <Navbar title="name" />
+
+2. Navbar.js => Navbar(props) : aise isme props pass krna prta h 
+
+3. jaha title likhna h waha {props.title} : aise js ki help se props se add title add krskte h 
+
+
+
+<====== PROPS TYPES =======> 
+
+1. Proptypes ko sbse pehle Navbar.js m import krna h => impt  
+
+2. propType se variale k types ko define krskte h hm => or isko sbse last m add krna h component k file m 
+
+3. Syntax => 
+
+function.propTypes = {
+    variable name 1: propTypes.string.isRequired,
+    variable name 2: propTypes.string
+}
+
+e.g. 
+
+Navbar.propTypes = {
+    title.PropTypes: propTypes.string,
+    about.PropTypes: propTypes.string
+
+}
+
+4. isRequired isko add krne se wo section add krna important hojayega nhi to error show hoga console m
+
+
+<<=========== Default Props ==============>>
+
+1. Default prop types ko hmlog default values ko add krne k liye use krte h : mtlb konsi value use kre agr value pass nhi horhi App.js m 
+
+2. Navbar.defaultProps = {
+    title: 'Set Title here',
+    about: 'Set About here'
+};
+

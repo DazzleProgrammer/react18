@@ -1,0 +1,16 @@
+Adding Bootstrap in React 
+
+1. Single page application: isme page baar baar change / reload nhi hogi means ekhi page m data update hoti rehti h dynamically.
+
+2. Data k bandwidth ko bcha skte h react se jb bht jada servers h or client ka bhi data save krskte h 
+
+3. Node modules m sare packages hote h jo ki react app built krne m help krte h isliye node modules ko gitignore m add krte h 
+
+4. node modules ko add krne k liye : npm install
+
+5. Adding bootstrap in react => 
+
+script and css links ko add krege index.html m
+
+6. index.css k sare styles ko delete krege. 
+
