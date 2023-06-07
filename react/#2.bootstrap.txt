@@ -12,5 +12,5 @@ Adding Bootstrap in React
 
 script and css links ko add krege index.html m
 
-6. index.css k sare styles ko delete krege. 
+6. index.css k sare styles ko delete krege... 
 
